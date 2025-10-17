@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+	int Array[5]={1,2,3,4,5};
+	int lastDigit;
+	
+	for(int i=0; i<=4; i++){
+		
+		scanf("%d", &Array[i]);
+	}
+	
+	for(int i=0; i<=4; i++){
+		
+		if(i=4){
+			lastDigit=Array[4];
+			printf("%d ", lastDigit);
+			
+			for(int j=0; j<=3; j++){
+				printf("%d ", Array[j]);
+			}
+		}
+		
+	}
+	
+	return 0;
+}
