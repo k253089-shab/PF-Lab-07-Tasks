@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int Array[5]={1,2,3,4,5};
+	int Array[5];
 	int lastDigit;
 	
 	for(int i=0; i<=4; i++){
