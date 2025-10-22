@@ -8,6 +8,5 @@ int main() {
     
     printf("\nOutput: %s", str);
     
-
     return 0;
 }
